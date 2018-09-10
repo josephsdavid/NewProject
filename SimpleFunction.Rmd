@@ -12,3 +12,6 @@ keep_md: true
 se <- function(x) {
   sd(x)/length(x)
 }
+```
+
+end
