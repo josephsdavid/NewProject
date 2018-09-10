@@ -1,0 +1,14 @@
+---
+title: "SimpleFunction"
+author: "David Josephs"
+date: "September 10, 2018"
+output: html_document
+keep_md: true
+---
+
+# Example code for using RStudio with Git and Github
+
+```{r}
+se <- function(x) {
+  sd(x)/length(x)
+}
